@@ -12,8 +12,8 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left animate-fade-in">
             <h1 className="text-5xl lg:text-6xl font-bold mb-4" data-testid="hero-title">
-              <span className="text-accent">Anirudh</span> 
-              <span className="gradient-text">Saini</span>
+              <span className="text-accent">HI, I'm</span> 
+              <span className="gradient-text">Anirudh Saini</span>
             </h1>
             <p className="text-xl text-neutral-500 mb-6" data-testid="hero-tagline">Content Writer | Digital Marketer</p>
             <p className="text-lg text-neutral-600 mb-8 max-w-xl mx-auto lg:mx-0" data-testid="hero-value-prop">

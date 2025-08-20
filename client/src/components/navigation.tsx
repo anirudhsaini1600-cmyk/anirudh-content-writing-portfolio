@@ -74,9 +74,9 @@ export default function Navigation() {
           <button 
             onClick={() => scrollToSection('contact')} 
             className="bg-primary text-white px-6 py-2 rounded-full hover:bg-blue-800 transition-all duration-300 transform hover:scale-105"
-            data-testid="nav-hire-me"
+            data-testid="nav-get-started"
           >
-            Hire Me
+            Get Started
           </button>
         </div>
       </div>
