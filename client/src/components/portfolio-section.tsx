@@ -9,7 +9,7 @@ export default function PortfolioSection() {
       category: 'blogs',
       title: 'Co-Development Software',
       description: 'Comprehensive guide on co-development software strategies for digital transformation and business growth.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      image: '@assets/Co-development-Software_-A-Strategic-Guide-to-Innovation-and-Collaboration-1 (1)_1755699839679.jpg',
       badge: 'Blog Writing',
       badgeColor: 'bg-primary',
       link: 'https://buzzclan.com/digital-transformation/co-development-software/'
@@ -19,7 +19,7 @@ export default function PortfolioSection() {
       category: 'blogs',
       title: 'Data Analytics vs Data Science: Which One Powers Your Business Growth?',
       description: 'In-depth analysis comparing data analytics and data science to help businesses make informed decisions.',
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      image: '@assets/Data-Analytics-vs-Data-Science_-Which-One-Powers-Your-Business-Growth__1755699999270.jpg',
       badge: 'Technical Writing',
       badgeColor: 'bg-secondary',
       link: 'https://buzzclan.com/data-engineering/data-analytics-vs-data-science/'
@@ -29,7 +29,7 @@ export default function PortfolioSection() {
       category: 'blogs',
       title: 'Transform Your Enterprise with Adaptive Software Development',
       description: 'Strategic guide on implementing adaptive software development methodologies for enterprise transformation.',
-      image: 'https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      image: '@assets/Transform-Your-Enterprise-with-Adaptive-Software-Development-1-1_1755699839678.jpg',
       badge: 'Blog Writing',
       badgeColor: 'bg-primary',
       link: 'https://buzzclan.com/digital-transformation/adaptive-software-development/'
@@ -39,7 +39,7 @@ export default function PortfolioSection() {
       category: 'blogs',
       title: 'Building an Effective Penetration Testing Program: Strategy Guide',
       description: 'Comprehensive strategy guide for building robust penetration testing programs for quality assurance.',
-      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      image: '@assets/Building-an-Effective-Penetration-Testing-Program-1_1755700047170.jpg',
       badge: 'Technical Writing',
       badgeColor: 'bg-secondary',
       link: 'https://buzzclan.com/quality-assurance/penetration-testing/'
@@ -49,7 +49,7 @@ export default function PortfolioSection() {
       category: 'blogs',
       title: 'A Complete Guide to Cloud Management: Strategies, Tools, & Best Practices',
       description: 'Complete guide covering cloud management strategies, essential tools, and industry best practices.',
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      image: '@assets/Cloud-Management-1_1755700327291.jpg',
       badge: 'Cloud Writing',
       badgeColor: 'bg-blue-500',
       link: 'https://buzzclan.com/cloud/cloud-management/'
@@ -59,7 +59,7 @@ export default function PortfolioSection() {
       category: 'guest-posts',
       title: 'Impact of AI and Cloud Computing on the Future of Finance',
       description: 'Published analysis on how AI and cloud computing are revolutionizing the financial industry.',
-      image: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      image: '@assets/Featured-Image-Impact-of-AI-and-Cloud-Computing-on-the-Future-of-Finance-666x418_1755700762359.jpg',
       badge: 'Guest Post',
       badgeColor: 'bg-red-500',
       link: 'https://www.noupe.com/magazine/business-online/impact-of-ai-and-cloud-computing-on-the-future-of-finance.html'
@@ -69,7 +69,7 @@ export default function PortfolioSection() {
       category: 'guest-posts',
       title: 'How Wix Contributes to the Business Growth in 2024',
       description: 'In-depth article on leveraging Wix platform for business growth and digital presence.',
-      image: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      image: '@assets/How-Wix-Contributes-to-the-Business-Growth-in-2024-696x392_1755700762360.jpg',
       badge: 'Guest Post',
       badgeColor: 'bg-red-500',
       link: 'https://learnwoo.com/how-wix-contributes-to-the-business-growth/'
@@ -79,7 +79,7 @@ export default function PortfolioSection() {
       category: 'guest-posts',
       title: 'Future of Digital Transformation in Banking',
       description: 'Forward-looking analysis of digital transformation trends and technologies in the banking sector.',
-      image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      image: '@assets/image_1755700705465.png',
       badge: 'Guest Post',
       badgeColor: 'bg-red-500',
       link: 'https://thedatascientist.com/future-of-digital-transformation-in-banking/'
