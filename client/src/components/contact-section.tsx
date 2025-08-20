@@ -86,13 +86,7 @@ export default function ContactSection() {
       testId: "social-linkedin"
     },
     {
-      href: "#",
-      icon: "fab fa-instagram",
-      color: "bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600",
-      testId: "social-instagram"
-    },
-    {
-      href: "#",
+      href: "https://medium.com/@anirudhsaini1600",
       icon: "fab fa-medium-m",
       color: "bg-black hover:bg-gray-800",
       testId: "social-medium"

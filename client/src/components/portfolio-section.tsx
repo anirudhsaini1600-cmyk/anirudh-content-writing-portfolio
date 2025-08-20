@@ -176,6 +176,31 @@ export default function PortfolioSection() {
               </div>
             </div>
           ))}
+          
+          {/* Show +X more indicators based on active filter */}
+          {(activeFilter === 'blogs' || activeFilter === 'all') && (
+            <div className="bg-neutral-100 rounded-2xl flex items-center justify-center p-8 border-2 border-dashed border-neutral-300">
+              <div className="text-center">
+                <div className="text-4xl text-neutral-400 mb-4">
+                  <i className="fas fa-plus"></i>
+                </div>
+                <p className="text-xl font-bold text-neutral-600">+20 more</p>
+                <p className="text-neutral-500">Blog Articles</p>
+              </div>
+            </div>
+          )}
+          
+          {(activeFilter === 'guest-posts' || activeFilter === 'all') && (
+            <div className="bg-neutral-100 rounded-2xl flex items-center justify-center p-8 border-2 border-dashed border-neutral-300">
+              <div className="text-center">
+                <div className="text-4xl text-neutral-400 mb-4">
+                  <i className="fas fa-plus"></i>
+                </div>
+                <p className="text-xl font-bold text-neutral-600">+30 more</p>
+                <p className="text-neutral-500">Guest Posts</p>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </section>
