@@ -1,37 +1,37 @@
 export default function ServicesSection() {
   const services = [
     {
-      icon: "fas fa-blog",
+      icon: "fas fa-edit",
       title: "Blog Writing",
       description: "SEO-rich blogs that rank & attract leads with strategic keyword placement and engaging storytelling.",
       color: "text-primary"
     },
     {
-      icon: "fas fa-search",
+      icon: "fas fa-search-plus",
       title: "SEO Articles",
       description: "Optimized long-form articles that boost authority and establish your brand as an industry leader.",
       color: "text-secondary"
     },
     {
-      icon: "fas fa-share-alt",
+      icon: "fas fa-bullhorn",
       title: "Social Media Copy",
       description: "Engaging posts designed for clicks & shares that build community and drive traffic.",
       color: "text-primary"
     },
     {
-      icon: "fas fa-envelope",
+      icon: "fas fa-paper-plane",
       title: "Newsletters & Landing Pages",
       description: "Persuasive content that drives conversions and nurtures your audience through every stage.",
       color: "text-secondary"
     },
     {
-      icon: "fas fa-pen-fancy",
+      icon: "fas fa-magic",
       title: "Creative Copywriting",
       description: "Brand storytelling with impact that connects emotionally and drives action.",
       color: "text-primary"
     },
     {
-      icon: "fas fa-chart-line",
+      icon: "fas fa-rocket",
       title: "Content Strategy",
       description: "Data-driven content planning that aligns with your business goals and audience needs.",
       color: "text-secondary"

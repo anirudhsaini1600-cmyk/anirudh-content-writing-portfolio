@@ -7,56 +7,102 @@ export default function PortfolioSection() {
     {
       id: 1,
       category: 'blogs',
-      title: 'AI-Powered Content Strategy: A Complete Guide',
-      description: 'Comprehensive guide on leveraging AI for content marketing that increased client engagement by 45%.',
+      title: 'Co-Development Software',
+      description: 'Comprehensive guide on co-development software strategies for digital transformation and business growth.',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
       badge: 'Blog Writing',
-      badgeColor: 'bg-primary'
+      badgeColor: 'bg-primary',
+      link: 'https://buzzclan.com/digital-transformation/co-development-software/'
     },
     {
       id: 2,
       category: 'blogs',
-      title: 'Cloud Migration Best Practices',
-      description: 'In-depth technical article that ranked #1 for "cloud migration strategy" and generated 200+ qualified leads.',
+      title: 'Data Analytics vs Data Science: Which One Powers Your Business Growth?',
+      description: 'In-depth analysis comparing data analytics and data science to help businesses make informed decisions.',
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
       badge: 'Technical Writing',
-      badgeColor: 'bg-secondary'
+      badgeColor: 'bg-secondary',
+      link: 'https://buzzclan.com/data-engineering/data-analytics-vs-data-science/'
     },
     {
       id: 3,
-      category: 'guest-posts',
-      title: 'Cyber Defense Magazine Article',
-      description: 'Published piece on cybersecurity trends that drove 50+ high-quality backlinks and industry recognition.',
-      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      badge: 'Guest Post',
-      badgeColor: 'bg-red-500'
+      category: 'blogs',
+      title: 'Transform Your Enterprise with Adaptive Software Development',
+      description: 'Strategic guide on implementing adaptive software development methodologies for enterprise transformation.',
+      image: 'https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      badge: 'Blog Writing',
+      badgeColor: 'bg-primary',
+      link: 'https://buzzclan.com/digital-transformation/adaptive-software-development/'
     },
     {
       id: 4,
-      category: 'newsletters',
-      title: 'Tech Trends Weekly Newsletter',
-      description: 'Weekly newsletter series that achieved 35% open rate and 8% click-through rate for B2B SaaS client.',
-      image: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      badge: 'Newsletter',
-      badgeColor: 'bg-purple-500'
+      category: 'blogs',
+      title: 'Building an Effective Penetration Testing Program: Strategy Guide',
+      description: 'Comprehensive strategy guide for building robust penetration testing programs for quality assurance.',
+      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      badge: 'Technical Writing',
+      badgeColor: 'bg-secondary',
+      link: 'https://buzzclan.com/quality-assurance/penetration-testing/'
     },
     {
       id: 5,
-      category: 'newsletters',
-      title: 'High-Converting Landing Page',
-      description: 'Conversion-optimized landing page copy that increased sign-ups by 25% for fintech startup.',
-      image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      badge: 'Landing Page',
-      badgeColor: 'bg-orange-500'
+      category: 'blogs',
+      title: 'A Complete Guide to Cloud Management: Strategies, Tools, & Best Practices',
+      description: 'Complete guide covering cloud management strategies, essential tools, and industry best practices.',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      badge: 'Cloud Writing',
+      badgeColor: 'bg-blue-500',
+      link: 'https://buzzclan.com/cloud/cloud-management/'
     },
     {
       id: 6,
-      category: 'blogs',
-      title: 'Complete SEO Guide 2024',
-      description: 'Comprehensive SEO guide that ranks on page 1 for multiple high-volume keywords and drives consistent organic traffic.',
+      category: 'guest-posts',
+      title: 'Impact of AI and Cloud Computing on the Future of Finance',
+      description: 'Published analysis on how AI and cloud computing are revolutionizing the financial industry.',
+      image: 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      badge: 'Guest Post',
+      badgeColor: 'bg-red-500',
+      link: 'https://www.noupe.com/magazine/business-online/impact-of-ai-and-cloud-computing-on-the-future-of-finance.html'
+    },
+    {
+      id: 7,
+      category: 'guest-posts',
+      title: 'How Wix Contributes to the Business Growth in 2024',
+      description: 'In-depth article on leveraging Wix platform for business growth and digital presence.',
       image: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      badge: 'SEO Article',
-      badgeColor: 'bg-green-500'
+      badge: 'Guest Post',
+      badgeColor: 'bg-red-500',
+      link: 'https://learnwoo.com/how-wix-contributes-to-the-business-growth/'
+    },
+    {
+      id: 8,
+      category: 'guest-posts',
+      title: 'Future of Digital Transformation in Banking',
+      description: 'Forward-looking analysis of digital transformation trends and technologies in the banking sector.',
+      image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      badge: 'Guest Post',
+      badgeColor: 'bg-red-500',
+      link: 'https://thedatascientist.com/future-of-digital-transformation-in-banking/'
+    },
+    {
+      id: 9,
+      category: 'landing-pages',
+      title: 'Ask Us Anything: Decoding What AI-Ready Means For Organizations',
+      description: 'Interactive landing page content exploring AI readiness for modern organizations.',
+      image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      badge: 'Landing Page',
+      badgeColor: 'bg-orange-500',
+      link: 'https://buzzclan.com/ask-us-anything/'
+    },
+    {
+      id: 10,
+      category: 'landing-pages',
+      title: 'HIMSS Event Landing Page',
+      description: 'Event-focused landing page content designed for healthcare information management conference.',
+      image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      badge: 'Landing Page',
+      badgeColor: 'bg-orange-500',
+      link: 'https://buzzclan.com/event/himss/'
     }
   ];
 
@@ -64,7 +110,7 @@ export default function PortfolioSection() {
     { id: 'all', label: 'All Work' },
     { id: 'blogs', label: 'Blogs' },
     { id: 'guest-posts', label: 'Guest Posts' },
-    { id: 'newsletters', label: 'Newsletters' }
+    { id: 'landing-pages', label: 'Landing Pages' }
   ];
 
   const filteredItems = activeFilter === 'all' 
@@ -119,9 +165,14 @@ export default function PortfolioSection() {
                 </span>
                 <h3 className="text-xl font-bold text-accent mt-4 mb-3">{item.title}</h3>
                 <p className="text-neutral-600 mb-4">{item.description}</p>
-                <button className="inline-flex items-center text-primary font-semibold hover:text-blue-800 transition-colors">
+                <a 
+                  href={item.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center text-primary font-semibold hover:text-blue-800 transition-colors"
+                >
                   Read Project <i className="fas fa-arrow-right ml-2"></i>
-                </button>
+                </a>
               </div>
             </div>
           ))}
