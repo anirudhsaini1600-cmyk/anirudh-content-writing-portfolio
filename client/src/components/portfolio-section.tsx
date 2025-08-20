@@ -77,12 +77,12 @@ export default function PortfolioSection() {
     {
       id: 8,
       category: 'guest-posts',
-      title: 'Future of Digital Transformation in Banking',
-      description: 'Forward-looking analysis of digital transformation trends and technologies in the banking sector.',
+      title: 'The Role of Human Error in Data Spillage Incidents',
+      description: 'Analysis of how human error contributes to data spillage incidents and cybersecurity vulnerabilities.',
       image: '/images/image_1755700705465.png',
       badge: 'Guest Post',
       badgeColor: 'bg-red-500',
-      link: 'https://thedatascientist.com/future-of-digital-transformation-in-banking/'
+      link: 'https://www.cyberdefensemagazine.com/the-role-of-human-error-in-data-spillage-incidents/'
     },
     {
       id: 9,
