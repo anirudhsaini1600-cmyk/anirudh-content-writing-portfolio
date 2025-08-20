@@ -1,37 +1,37 @@
 export default function ServicesSection() {
   const services = [
     {
-      icon: "fas fa-edit",
+      icon: "📝",
       title: "Blog Writing",
       description: "SEO-rich blogs that rank & attract leads with strategic keyword placement and engaging storytelling.",
       color: "text-primary"
     },
     {
-      icon: "fas fa-search-plus",
+      icon: "🔍",
       title: "SEO Articles",
       description: "Optimized long-form articles that boost authority and establish your brand as an industry leader.",
       color: "text-secondary"
     },
     {
-      icon: "fas fa-bullhorn",
+      icon: "📢",
       title: "Social Media Copy",
       description: "Engaging posts designed for clicks & shares that build community and drive traffic.",
       color: "text-primary"
     },
     {
-      icon: "fas fa-paper-plane",
+      icon: "📧",
       title: "Newsletters & Landing Pages",
       description: "Persuasive content that drives conversions and nurtures your audience through every stage.",
       color: "text-secondary"
     },
     {
-      icon: "fas fa-magic",
+      icon: "✨",
       title: "Creative Copywriting",
       description: "Brand storytelling with impact that connects emotionally and drives action.",
       color: "text-primary"
     },
     {
-      icon: "fas fa-rocket",
+      icon: "🚀",
       title: "Content Strategy",
       description: "Data-driven content planning that aligns with your business goals and audience needs.",
       color: "text-secondary"
@@ -56,8 +56,8 @@ export default function ServicesSection() {
               className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
               data-testid={`service-${index}`}
             >
-              <div className={`text-4xl ${service.color} mb-4`}>
-                <i className={service.icon}></i>
+              <div className="text-4xl mb-4">
+                {service.icon}
               </div>
               <h3 className="text-xl font-bold text-accent mb-4">{service.title}</h3>
               <p className="text-neutral-600">{service.description}</p>

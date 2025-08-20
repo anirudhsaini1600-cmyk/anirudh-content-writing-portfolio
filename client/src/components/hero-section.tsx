@@ -38,7 +38,7 @@ export default function HeroSection() {
           </div>
           <div className="flex justify-center animate-slide-up">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=600" 
+              src="/images/profile-photo.jpg" 
               alt="Anirudh Saini - Professional Content Writer" 
               className="w-80 h-80 rounded-full object-cover shadow-2xl animate-bounce-gentle border-4 border-white"
               data-testid="hero-profile-image"

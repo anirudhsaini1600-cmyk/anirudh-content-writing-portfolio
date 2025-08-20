@@ -56,21 +56,21 @@ export default function ContactSection() {
 
   const contactInfo = [
     {
-      icon: "fas fa-envelope",
+      icon: "📧",
       label: "Email",
       value: "anirudhsaini1600@gmail.com",
       href: "mailto:anirudhsaini1600@gmail.com",
       color: "bg-primary"
     },
     {
-      icon: "fas fa-phone",
+      icon: "📞",
       label: "Phone",
       value: "+91 8571078587",
       href: "tel:+918571078587",
       color: "bg-secondary"
     },
     {
-      icon: "fab fa-linkedin-in",
+      icon: "💼",
       label: "LinkedIn",
       value: "linkedin.com/in/anirudhs123",
       href: "https://www.linkedin.com/in/anirudhs123",
@@ -81,13 +81,13 @@ export default function ContactSection() {
   const socialLinks = [
     {
       href: "https://www.linkedin.com/in/anirudhs123",
-      icon: "fab fa-linkedin-in",
+      icon: "💼",
       color: "bg-blue-600 hover:bg-blue-700",
       testId: "social-linkedin"
     },
     {
       href: "https://medium.com/@anirudhsaini1600",
-      icon: "fab fa-medium-m",
+      icon: "📝",
       color: "bg-black hover:bg-gray-800",
       testId: "social-medium"
     }
@@ -112,8 +112,8 @@ export default function ContactSection() {
               <div className="space-y-4">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-center space-x-4" data-testid={`contact-info-${index}`}>
-                    <div className={`w-12 h-12 ${info.color} rounded-full flex items-center justify-center text-white`}>
-                      <i className={info.icon}></i>
+                    <div className={`w-12 h-12 ${info.color} rounded-full flex items-center justify-center text-white text-lg`}>
+                      {info.icon}
                     </div>
                     <div>
                       <p className="text-neutral-500">{info.label}</p>
@@ -144,7 +144,7 @@ export default function ContactSection() {
                     className={`w-12 h-12 ${social.color} text-white rounded-full flex items-center justify-center transition-colors`}
                     data-testid={social.testId}
                   >
-                    <i className={social.icon}></i>
+                    <span className="text-lg">{social.icon}</span>
                   </a>
                 ))}
               </div>
